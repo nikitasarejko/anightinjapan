@@ -1,6 +1,6 @@
 ---
 title: A Night in Japan
-timezone: UTC
+timezone: Europe/Berlin
 collections:
   posts:
     title: Posts
@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: info@nikitasarejko.com
 description: A weblog about Japan
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: nnnnikita
 github_username: nikitasarejko
 theme: minima
