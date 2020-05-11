@@ -1,0 +1,82 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+
+// VARIABLES
+$background: #f7f9ff;
+$black: #0c0c0c;
+$red: #ff3500;
+$typography: Roboto;
+
+body {
+    background-color: $background;
+    color: $black;
+
+    font-family: $typography, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+        margin-left: .6rem;
+    }
+}
+
+section {
+    margin-top: 2.5rem;
+}
+
+nav a,
+p a {
+    color: $black;
+    text-decoration: none;
+    border-bottom: 3px solid $red;
+}
+
+p.read-more {
+    font-weight: 700;
+}
+
+div.blog-posts {
+    max-width: 35rem;
+
+    a{
+        text-decoration: none;
+        color: $black;
+        display: block;
+        margin-bottom: 2.5rem;
+    }
+}
+
+div.circle {
+    position: fixed;
+    bottom: -18rem;
+    right: -18rem;
+    width: 36rem;
+    height: 36rem;
+    border-radius: 50%;
+    background-color: $red;
+}
