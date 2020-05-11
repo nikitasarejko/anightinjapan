@@ -72,6 +72,23 @@ div.blog-posts {
     }
 }
 
+div.post {
+
+    h3 {
+        margin-top: 4rem;
+    }
+
+    p {
+        max-width: 42rem;
+        margin-bottom: 2.5rem;
+        line-height: 1.6;
+    }
+
+    img {
+        max-width: 42rem;
+    }
+}
+
 div.circle {
     position: fixed;
     bottom: -18rem;
