@@ -1,0 +1,30 @@
+---
+title: A Night in Japan
+timezone: Europe/Berlin
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: info@nikitasarejko.com
+description: A weblog about Japan
+baseurl: 
+url: 
+twitter_username: nnnnikita
+github_username: nikitasarejko
+theme: minima
+plugins:
+- jekyll-feed
