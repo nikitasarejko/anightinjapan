@@ -2,14 +2,14 @@
 title: A Night in Japan
 timezone: Europe/Berlin
 collections:
+  people:
+    title: People
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  people:
-    title: People
     output: true
 defaults:
 - scope:
