@@ -1,7 +1,7 @@
 ---
 title: Joe Potatoe
 date: 2020-05-13 08:52:00 +02:00
-position: CEO
+position: 0
 portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
 ---
 
