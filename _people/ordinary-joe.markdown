@@ -11,5 +11,3 @@ layout: people
 ---
 
 Hey, it's ordinary Joe
-
-<img src="{{ page.portrait_image }}" />
