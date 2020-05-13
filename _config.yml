@@ -2,6 +2,10 @@
 title: A Night in Japan
 timezone: Europe/Berlin
 collections:
+  people:
+    title: People
+    output: true
+    portrait: image
   posts:
     title: Posts
     output: true
@@ -19,6 +23,11 @@ defaults:
     type: posts
   values:
     layout: post
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: default
 email: info@nikitasarejko.com
 description: A weblog about Japan
 baseurl: 

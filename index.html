@@ -15,3 +15,14 @@ layout: default
 
     {% endfor %}
 </div>
+
+<div class="blog-posts">
+    {% for person in site.people %}
+
+        <a href="{{ person.url }}">
+            <h2>{{ person.title }}</h2>
+            <p>{{ person.position }}</p>
+        </a>
+
+    {% endfor %}
+</div>
