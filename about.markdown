@@ -1,8 +1,10 @@
 ---
 title: About
 permalink: "/about/"
+potatoe:
+- Test 1
+- Test 69
 layout: default
-potatoe: lorem ipsum dolor sit amet
 ---
 
 ![about.jpg](/uploads/about.jpg)
