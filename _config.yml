@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  people:
+    title: People
+    output: true
 defaults:
 - scope:
     path: ''
@@ -19,6 +22,11 @@ defaults:
     type: posts
   values:
     layout: post
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: default
 email: info@nikitasarejko.com
 description: A weblog about Japan
 baseurl: 
