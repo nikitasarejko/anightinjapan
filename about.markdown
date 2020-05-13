@@ -1,9 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-potatoe:
-  Lorem: Hallo Lorem
-  Ipsum: Hallo Ipsum
+potatoe: Lorem ipsum dolor sit amet
 layout: default
 ---
 
